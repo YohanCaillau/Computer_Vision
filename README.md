@@ -24,7 +24,7 @@ Nous utiliserons 3 datasets :
 
 
 - Galaxy Zoo: Une base d'images extraites du projet Galaxy Zoo.
-Les données sont volumineuses, elles seront fournies sur clé USB (ou téléchargement : galaxy zoo data).
+Les données sont volumineuses (téléchargement : galaxy zoo data).
 
 ## Test avec OpenCV
 

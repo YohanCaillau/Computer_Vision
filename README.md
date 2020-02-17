@@ -11,7 +11,7 @@ Le Computer Vision pré-existait avant le Deep Learning. Des techniques classiqu
 ## Pour commencer
 
 Installer Anaconda sur sa machine et travailler en local dans un répertoire que l'on mettra sur github à terme.  
-Créer un environnement conda à partir du fichier environment.yml.  
+Créer un environnement conda à partir du fichier environment_cv.yml situé dans le dossier environnement.  
 Les développements se font dans des notebooks Jupyter. 
 
 ## Les datasets

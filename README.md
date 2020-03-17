@@ -76,17 +76,29 @@ Vidéo youtube exlicative pour [Haar cascade with OpenCV](https://www.youtube.co
 - Reconnaissance de la face d'un chat à partir de photo: Haar_cascade_catface.ipynb
 - Reconnaissance de la face d'un homme à partir d'une vidéo: Haar_cascade_face_eye_recognition.ipynb et Haar_cascade_face_eye_smile_profile_recognition.ipynb
 
+## Transfer learning
+
+Choix d'un modèle sur étagère:
+- CNN_Pretrained_CNN.ipynb sur sign language.
+
 ## Challenge Galaxy Zoo
 
 ### Préparation des données
 Choix de la classe1, traitement des données, algorithmes de compression des images: 
-- Galaxy_zoo_Class1_separation.ipynb
-- Galaxy_zoo_Class1_treatment.ipynb
-
-### Transfer learning
-Choix d'un modèle sur étagère:
-- CNN_Pretrained_CNN.ipynb sur sign language.
+- Galaxy_zoo_Class1_separation.ipynb: Garder que les données de la classe 1.
+- Galaxy_zoo_Class1_testlibrary.ipynb: Tester la library opencv
+- Galaxy_zoo_Pre_Treatment.ipynb: Crop des images 
 
 ### Application sur un sous-ensemble de Galaxy Zoo: 
 
-Application à la classe 1 de Galaxy Zoo: Galaxy_zoo_modelCNN.ipynb
+Modèle CNN:
+- Galaxy_zoo_modelCNN.ipynb: Application à la classe 1 de Galaxy Zoo
+- Galaxy_zoo_GridSearchCV.ipynb: Pour chercher les meilleurs hyperparamètres du modèle
+- Galaxy_zoo_modelCNN_GridSearchParameters.ipynb: Modèle avec les meilleurs hyperparamètres
+
+Transfert learning:
+- Galaxy_zoo_modelCNN-Cancero.ipynb: Modèle utilisé en cancérologie, appliqué aux galaxies
+- Galaxy_zoo_pretrainedCNN.ipynb
+
+Tree classifier:
+- Galaxy_zoo_treeclassifier.ipynb: Arbre de décision, Random forest, Boosting

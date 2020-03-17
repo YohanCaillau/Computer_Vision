@@ -10,8 +10,8 @@ Le Computer Vision pré-existait avant le Deep Learning. Des techniques classiqu
 
 ## Pour commencer
 
-Installer Anaconda sur sa machine et travailler en local dans un répertoire que l'on mettra sur github à terme.  
-Créer un environnement conda à partir du fichier environment_cv.yml situé dans le dossier environnement.  
+Installer Anaconda sur sa machine et travailler en local dans un répertoire que l'on mettra sur github à terme
+Créer un environnement conda, installer keras, opencv et tensorflow.
 Les développements se font dans des notebooks Jupyter. 
 
 ## Les datasets
@@ -24,7 +24,7 @@ Nous utiliserons 3 datasets :
 
 
 - Galaxy Zoo: Une base d'images extraites du projet Galaxy Zoo.
-Les données sont volumineuses (téléchargement : galaxy zoo data).
+Les données sont volumineuses, elles seront fournies sur clé USB (ou téléchargement : galaxy zoo data).
 
 ## Test avec OpenCV
 
